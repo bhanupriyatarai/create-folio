@@ -59,7 +59,7 @@ function Dashboard() {
           <div className='flex flex-col gap-5'>
             <span><span className='font-[500]'>Email</span> : {userData.email}</span>
             <span><span className='font-[500]'>User Name</span> : {userData.username}</span>
-            <span className='font-[500]'>Portfolio Link : <NavLink to={`/user/${userData.username}`}><span className='underline text-blue-400 cursor-pointer'>https://create-folio.vercel.app/user/{userData.username}</span></NavLink></span>
+            <span className='font-[500]'>Portfolio Link : <NavLink to={`/user/${userData.username}`}><span className='underline text-blue-400 cursor-pointer'>https://bhanupriyatarai-create-folio.vercel.app/user/{userData.username}</span></NavLink></span>
           </div>
         </div>
       </div>
